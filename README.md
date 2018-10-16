@@ -14,6 +14,10 @@
 ### pylintrc.cfg
 Standard config for pylint, adjusted for ACODS-project requirements.
 
+### environment.yml
+Definition of a requirements file for a conda environment. This file is just an example and can be used for creation 
+of a individual conda environment for the project. 
+
 # Test-Folder
 ## Location
 The Test-Folder is part of the Module and should be deployed with it.
