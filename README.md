@@ -58,3 +58,10 @@ We use Pylint as the linting tool. Every project has it's own pylintrc.cfg in th
 DON'T rely on a option pylint integration in PyCharm because ...
 - the exact settings may be project specific and therefore should be derived from a config file within the project.
 - the linting functionality should by available independ of the IDE (similar with gitignore).
+
+# Scratches
+Scratches are little scripts of code to get things done, but that aren't part of the project per se.
+## Location
+Put them in a separate folder that is ignored by git. 
+I propose a folder called desktop for stuff that isn't properly sorted away. There is already an entry in the gitingore 
+ignoring a folder with that name.
