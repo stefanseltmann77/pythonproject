@@ -8,7 +8,8 @@ class OracleHandle:
     """Basic database handle for Oracle
 
     In order to work correctly you have to provide a config parser with the
-    database name as the section and the connection paramters (without passwords) as the subconfigs of this section.
+    database name as the section and the connection paramters (without passwords)
+    as the subconfigs of this section.
     """
     logger: logging.Logger
     configs: ConfigParser

@@ -3,3 +3,6 @@
 /.pytest_cache
 local.py
 /desktop
+/*.egg-info
+/dist
+/build
