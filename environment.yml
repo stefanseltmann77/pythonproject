@@ -1,0 +1,13 @@
+Comment:
+  Example for a environment file for conda!
+name: base_env_38
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - mypy
+  - pylint
+  - pytest
+  - python=3.8
+  - setuptools
+  - wheel
